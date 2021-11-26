@@ -13,7 +13,7 @@ body {
 
 .typing_header_black{
     font-family: var(--font);
-    margin-left: 31%;
+    margin-left: 29%;
     color: var(--theme2);
     border-right: solid 2px grey;
     white-space: nowrap;
