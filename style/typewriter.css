@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, black 50%, #FAF9F6 0%);
+    height:100vh;
+}
+
+.header{
+    display: flex;
+    flex-direction:  row; 
+    font-family: var(--font);
+    font-size: 30px;
+}
+
+.typing_header_black{
+    font-family: var(--font);
+    margin-left: 31%;
+    color: var(--theme2);
+    border-right: solid 2px grey;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 22ch;
+    animation: typewriter 4s steps(22) 1s, cursor 500ms, steps(22), infinite;
+}
+
+.typing_white{
+    margin-left: 65px;
+    color: var(--theme) !important;
+}
+
+@keyframes typewriter{
+    0%{width: 0;}
+    100%{width: 22ch;}
+}
+
+@keyframes cursor{
+    from{border-right-color: var(--theme)}
+    to{border-right-color: transparent;}
+}

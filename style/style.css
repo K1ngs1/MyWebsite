@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root{
+    --font: monospace;
+    --theme2: #FAF9F6;
+    --theme: black;
+}
+
+.about_me {
+    width: 100%;
+}
+
+.container_about_me {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font);
+    margin-left: 300px;
+}
+
+.container_about_me > div {
+    flex: 50%;
+}
+
+#dark_side{
+    color: var(--theme2);
+}
+
+.heading{
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.text{
+    font-size: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    padding-right: 5px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
